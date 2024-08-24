@@ -2,7 +2,26 @@
 Starter code that gives each pharmacy the ability to create an account adding all of its defining data through the Sign-Up form. <bra> 
 Data like(Phamacy Name, mail, address, Location, License Number and password)
 
+# Packages/Dependencies used 
 
+bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mongodb, mongoose, morgan, nodemon, passport, passport-local, validator
+
+---
+
+# Install all the dependencies or node packages used for development via Terminal
+
+`npm install` 
+
+---
+
+# Things to add
+
+- Create a `.env` file and add the following as `key: value` 
+  - PORT: 2121 (can be any port example: 3000) 
+  - DB_STRING: `your database URI` 
+ ---
+ 
+ Have fun testing and improving it! 😎
 ## How It's Made:
 
 **Tech used for Backend:** Node.js, Express, mongoose for connecting with MongoDB Atlas database server, passport for authenication, express-session and connect-mongo for storing session on DB, method-override for enabling us to make PUT and DELETE request via html forms as form's method attribute by default accepts just POST and GET as a value, express-flash for displaying alert messages to user if he/she enters invalid data into forms inputs by user, bycrypt pakcage for password hashing(encrypting)
